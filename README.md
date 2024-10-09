@@ -8,7 +8,9 @@ Each filter has 2 parts:
 To configure:
 
 1. Copy the filter files
-   bash`sudo cp nginx-*.conf /etc/fail2ban/filter.d/`
+
+`sudo cp nginx-*.conf /etc/fail2ban/filter.d/`
 
 2. Copy the jail configuration file
-   bash`sudo cp nginx.conf /etc/fail2ban/jail.d/`
+
+`sudo cp nginx.conf /etc/fail2ban/jail.d/`
